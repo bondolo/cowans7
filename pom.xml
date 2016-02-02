@@ -6,7 +6,7 @@
     <name>CopyOnWriteArrayNavigableSet</name>
     <description>CopyOnWriteArrayNavigableSet implementation for Java 7</description>
     <url>https://github.com/bondolo/cowans7</url>
-    <version>2-SNAPSHOT</version>
+    <version>2</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,7 +23,7 @@
         <connection>scm:git:git://git@github.com/bondolo/cowans7.git</connection>
         <developerConnection>scm:git:git@github.com:bondolo/cowans7.git</developerConnection>
         <url>https://github.com/bondolo/cowans7</url>
-        <tag>cowans7-1</tag>
+        <tag>cowans7-2</tag>
     </scm>
     <issueManagement>
         <url>https://github.com/bondolo/cowans7/issues</url>
