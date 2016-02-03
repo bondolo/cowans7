@@ -53,10 +53,12 @@ Include the project as a dependency in your `pom.xml` file:
     <dependency>
       <groupId>org.bondolo</groupId>
       <artifactId>cowans7</artifactId>
-      <version>3</version>
+      <version>2</version>
     </dependency>
     
 COWANS7 is distributed on Maven Central and should be automatically be found in most cases.
+
+Because the `CopyOnWriteArrayNavigableSet` class is defined in the `java.util.concurrent` package the cowans7-2.jar must be placed on the bootclasspath. The `java.util.concurrent` package is used by `CopyOnWriteArrayNavigableSet` because the implementation requires access to package private fields in `CopyOnWriteArrayList` and also for future compatibility if `CopyOnWriteArrayNavigableSet` is included in the JDK.
     
 ### License
 
