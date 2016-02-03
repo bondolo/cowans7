@@ -56,7 +56,7 @@ Include the project as a dependency in your `pom.xml` file:
       <version>3</version>
     </dependency>
     
-COWANS8 is distributed on Maven Central and should be automatically be found in most cases.
+COWANS7 is distributed on Maven Central and should be automatically be found in most cases.
     
 ### License
 
